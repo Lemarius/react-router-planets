@@ -28,7 +28,7 @@ const Planets = ({ planetName }) => {
 		setActiveTab(number);
 	};
 	if (!data[planetName]) {
-		return '';
+		return 'Loading...';
 	}
 	return (
 		<>
